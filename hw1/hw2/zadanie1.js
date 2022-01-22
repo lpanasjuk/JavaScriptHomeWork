@@ -10,5 +10,4 @@ function f(n) {
     return result;
 };
 
-var result = f(3);
-console.log(result);
+f(2);
