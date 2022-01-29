@@ -20,7 +20,7 @@ if(typeof acc == 'string' || typeof acc == 'number') {
         res = callback(res, arr[i], i, arr);
     }
 } else {
-throw new Error ('the type of the second parameter is not a string or a number'); 
+throw new Error ('the type of the third parameter is not a string or a number'); 
     }
 
 return res;
